@@ -1,0 +1,7 @@
+# Direct dependencies; use requirements-macos.lock for the validated environment.
+mlx-vlm==0.7.3
+mlx==0.32.2
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.13.5
+pillow==12.3.0

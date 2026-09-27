@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "tolerance": 0.125,
+  "cases": [
+    {
+      "case": "text",
+      "direct": [
+        26.75,
+        24.25
+      ],
+      "reference": [
+        26.75,
+        24.25
+      ],
+      "max_abs_delta": 0.0
+    },
+    {
+      "case": "red_square",
+      "direct": [
+        23.375,
+        22.625
+      ],
+      "reference": [
+        23.375,
+        22.625
+      ],
+      "max_abs_delta": 0.0
+    },
+    {
+      "case": "blue_square",
+      "direct": [
+        22.25,
+        23.75
+      ],
+      "reference": [
+        22.375,
+        23.875
+      ],
+      "max_abs_delta": 0.125
+    }
+  ]
+}

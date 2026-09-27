@@ -1,0 +1,15 @@
+.venv/
+.cache/
+model/
+results/
+site-packages/
+python/
+__pycache__/
+*.py[cod]
+*.safetensors
+*.gguf
+*.part
+.env
+.DS_Store
+._*
+__MACOSX/

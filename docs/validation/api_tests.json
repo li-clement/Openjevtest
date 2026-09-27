@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "text_yes",
+      "status": 200,
+      "result": {
+        "answer": true,
+        "probabilities": {
+          "yes": 0.9902915235185259,
+          "no": 0.009708476481474104
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": 4.625,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 123,
+          "generated_tokens": 0
+        },
+        "image_size": null,
+        "latency_ms": 1021.36
+      }
+    },
+    {
+      "case": "text_no",
+      "status": 200,
+      "result": {
+        "answer": false,
+        "probabilities": {
+          "yes": 0.18242552380635632,
+          "no": 0.8175744761936437
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": -1.5,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 122,
+          "generated_tokens": 0
+        },
+        "image_size": null,
+        "latency_ms": 128.49
+      }
+    },
+    {
+      "case": "red_square",
+      "status": 200,
+      "result": {
+        "answer": true,
+        "probabilities": {
+          "yes": 0.7057850278370112,
+          "no": 0.29421497216298875
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": 0.875,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 179,
+          "generated_tokens": 0
+        },
+        "image_size": [
+          256,
+          256
+        ],
+        "latency_ms": 1010.63
+      }
+    },
+    {
+      "case": "blue_square",
+      "status": 200,
+      "result": {
+        "answer": false,
+        "probabilities": {
+          "yes": 0.22270013882530884,
+          "no": 0.7772998611746912
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": -1.25,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 179,
+          "generated_tokens": 0
+        },
+        "image_size": [
+          256,
+          256
+        ],
+        "latency_ms": 215.07
+      }
+    },
+    {
+      "case": "red_square",
+      "status": 200,
+      "result": {
+        "answer": true,
+        "probabilities": {
+          "yes": 0.7057850278370112,
+          "no": 0.29421497216298875
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": 0.875,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 179,
+          "generated_tokens": 0
+        },
+        "image_size": [
+          256,
+          256
+        ],
+        "latency_ms": 212.18
+      }
+    },
+    {
+      "case": "blank",
+      "status": 422
+    },
+    {
+      "case": "missing_criterion",
+      "status": 422
+    },
+    {
+      "case": "system_override",
+      "status": 422
+    },
+    {
+      "case": "bad_base64",
+      "status": 422
+    },
+    {
+      "case": "not_image",
+      "status": 422
+    },
+    {
+      "case": "wrong_type",
+      "status": 422
+    },
+    {
+      "case": "token_limit",
+      "status": 413
+    },
+    {
+      "case": "body_limit",
+      "status": 413
+    },
+    {
+      "case": "pixel_limit",
+      "status": 413
+    },
+    {
+      "case": "concurrent_requests",
+      "statuses": [
+        503,
+        200
+      ]
+    },
+    {
+      "case": "recovery_after_errors_and_concurrency",
+      "status": 200,
+      "result": {
+        "answer": true,
+        "probabilities": {
+          "yes": 0.9890130573694068,
+          "no": 0.010986942630593188
+        },
+        "calibrated": false,
+        "threshold": 0.5,
+        "logit_margin": 4.5,
+        "model": "Qwen3.5-4B-4bit",
+        "model_revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c",
+        "prompt_version": "boolean-v1",
+        "usage": {
+          "input_tokens": 119,
+          "generated_tokens": 0
+        },
+        "image_size": null,
+        "latency_ms": 131.8
+      }
+    }
+  ]
+}
