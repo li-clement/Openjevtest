@@ -54,7 +54,7 @@ curl --fail-with-body http://127.0.0.1:8765/v1/decide \
 
 ## 文档与验证
 
-- [布尔、单选与多选推理方案](docs/inference-design.md)：单选和多选已完成设计记录，尚未实现；当前 API 仍仅支持布尔。
+- [布尔、单选与多选推理方案](docs/inference-design.md)：单选设计与多选共享前缀 Y/N 分支方案已记录，尚未实现；多选效率及一致性待验证，当前 API 仍仅支持布尔。
 - [数学模型及扩展](docs/mathematics.md)
 - [从权重到 API 的完整流程](docs/workflow.md)
 - [API 字段、限制和错误](docs/api.md)
