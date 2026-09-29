@@ -54,8 +54,8 @@ curl --fail-with-body http://127.0.0.1:8765/v1/decide \
 
 ## 文档与验证
 
-- [布尔、单选与多选推理方案](docs/inference-design.md)：单选设计与多选共享前缀 Y/N 分支方案已记录，尚未实现；多选效率及一致性待验证，当前 API 仍仅支持布尔。
-- [数学模型及扩展](docs/mathematics.md)
+- [推理方案与状态](docs/inference-design.md)：保留单选与共享前缀多选设计，新增 Y/N/U 三态判断与信念输出；这些扩展尚未实现，当前 API 仍仅支持布尔。
+- [数学模型及扩展](docs/mathematics.md)：第 7 节定义三态两阶段决策、信念输出及一致性训练目标；第 8 节记录可训练动态阈值门控候选。
 - [从权重到 API 的完整流程](docs/workflow.md)
 - [API 字段、限制和错误](docs/api.md)
 - [权重链接与固定版本](docs/models.md)
